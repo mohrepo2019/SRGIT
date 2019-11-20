@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A9D2204D-A68B-8787-29E5-9FF918385BC6" name="Applicant">
+<createdBy>KK111517</createdBy>
+<createdTime>2019-11-20 14:27:28 UTC</createdTime>
+<ownerDesignName>TESTING_SR</ownerDesignName>
+<engineerTo>
+<item key="118A1DDD-2EDE-C2F0-B061-0F0A9AEA9E7A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Applicant ID" id="3BDE60FC-61C2-B483-301D-48F74C4788F7">
+<createdBy>KK111517</createdBy>
+<createdTime>2019-11-20 14:27:38 UTC</createdTime>
+<ownerDesignName>TESTING_SR</ownerDesignName>
+<engineerTo>
+<item key="118A1DDD-2EDE-C2F0-B061-0F0A9AEA9E7A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fname" id="374DD115-A332-8372-9A0C-49CC12B86961">
+<createdBy>KK111517</createdBy>
+<createdTime>2019-11-20 14:27:45 UTC</createdTime>
+<ownerDesignName>TESTING_SR</ownerDesignName>
+<engineerTo>
+<item key="118A1DDD-2EDE-C2F0-B061-0F0A9AEA9E7A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
